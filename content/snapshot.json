@@ -1,0 +1,1422 @@
+{
+  "source": "frontier_compass_content.xlsx",
+  "generatedAt": "2026-10-15T21:34:33.702Z",
+  "tabs": {
+    "arenas": [
+      {
+        "id": "01",
+        "short_name": "Health",
+        "name": "Health & Life Sciences",
+        "line": "Care delivery, diagnostics, drug discovery, mental health.",
+        "status": "live",
+        "deal_flow_90d": "$18.9B",
+        "deal_flow_sourced": "no",
+        "thesis": "Care is where AI meets the hardest constraints — regulation, evidence and trust. The unlock is rarely a smarter model; it is software that can carry a clinical claim, clear an administrative backlog, or close an access gap without adding risk. The spend is enormous and the incumbents are slow.",
+        "__row": 2
+      },
+      {
+        "id": "02",
+        "short_name": "Industrials",
+        "name": "Industrials & the Physical World",
+        "line": "Manufacturing, robotics, supply chain, construction, mobility.",
+        "status": "live",
+        "deal_flow_90d": "$14.2B",
+        "deal_flow_sourced": "no",
+        "thesis": "Software ate the screen and stopped at the loading dock. Manipulation, inspection and installation are still priced as human labour because no general policy could hold a gripper steady in clutter. That constraint broke in the last 18 months, and the industries downstream of it — logistics, construction, food, maintenance — have neither the tooling, the insurance, nor the workforce to absorb what is now possible.",
+        "__row": 3
+      },
+      {
+        "id": "03",
+        "short_name": "Financial",
+        "name": "Financial Services",
+        "line": "Banking, payments, insurance, markets, compliance / fraud.",
+        "status": "soon",
+        "deal_flow_90d": "$12.9B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 4
+      },
+      {
+        "id": "04",
+        "short_name": "Energy",
+        "name": "Energy & Climate",
+        "line": "Power, grid, materials, resource efficiency, climate.",
+        "status": "soon",
+        "deal_flow_90d": "$21.8B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 5
+      },
+      {
+        "id": "05",
+        "short_name": "Consumer",
+        "name": "Consumer & Media",
+        "line": "Commerce, entertainment, creative tools, social.",
+        "status": "soon",
+        "deal_flow_90d": "$7.7B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 6
+      },
+      {
+        "id": "06",
+        "short_name": "Enterprise",
+        "name": "Enterprise & Work",
+        "line": "Back-office automation, software dev, sales / marketing.",
+        "status": "soon",
+        "deal_flow_90d": "$28.4B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 7
+      },
+      {
+        "id": "07",
+        "short_name": "Education",
+        "name": "Education & Talent",
+        "line": "Learning, training, hiring, the future of work.",
+        "status": "soon",
+        "deal_flow_90d": "$4.4B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 8
+      },
+      {
+        "id": "08",
+        "short_name": "Government",
+        "name": "Government, Defense & Security",
+        "line": "Public services, defense, cybersecurity, safety.",
+        "status": "soon",
+        "deal_flow_90d": "$16.5B",
+        "deal_flow_sourced": "no",
+        "thesis": null,
+        "__row": 9
+      }
+    ],
+    "arena_macro": [
+      {
+        "arena_id": "01",
+        "order": 1,
+        "label": "MARKET SIZE 2026",
+        "value": "$83.1B",
+        "change": "+11% YoY",
+        "trend": "up",
+        "sparkline": "4,5,5,6,6,7,8",
+        "sourced": "no",
+        "__row": 2
+      },
+      {
+        "arena_id": "01",
+        "order": 2,
+        "label": "CAPITAL FLOW · 90D",
+        "value": "$18.9B",
+        "change": "+13% QoQ",
+        "trend": "up",
+        "sparkline": "3,4,5,5,7,8,10",
+        "sourced": "no",
+        "__row": 3
+      },
+      {
+        "arena_id": "01",
+        "order": 3,
+        "label": "FUNDED TEAMS",
+        "value": "264",
+        "change": "+33 / 90D",
+        "trend": "up",
+        "sparkline": "5,6,6,7,8,9,10",
+        "sourced": "no",
+        "__row": 4
+      },
+      {
+        "arena_id": "01",
+        "order": 4,
+        "label": "SEED VALUATION MED.",
+        "value": "$26M",
+        "change": "-2% QoQ",
+        "trend": "down",
+        "sparkline": "9,9,9,8,8,8,7",
+        "sourced": "no",
+        "__row": 5
+      },
+      {
+        "arena_id": "02",
+        "order": 1,
+        "label": "MARKET SIZE 2026",
+        "value": "$62.4B",
+        "change": "+14% YoY",
+        "trend": "up",
+        "sparkline": "4,5,5,6,7,8,9",
+        "sourced": "no",
+        "__row": 6
+      },
+      {
+        "arena_id": "02",
+        "order": 2,
+        "label": "CAPITAL FLOW · 90D",
+        "value": "$14.2B",
+        "change": "+18% QoQ",
+        "trend": "up",
+        "sparkline": "3,4,4,6,7,9,12",
+        "sourced": "no",
+        "__row": 7
+      },
+      {
+        "arena_id": "02",
+        "order": 3,
+        "label": "FUNDED TEAMS",
+        "value": "312",
+        "change": "+41 / 90D",
+        "trend": "up",
+        "sparkline": "5,6,6,7,8,9,11",
+        "sourced": "no",
+        "__row": 8
+      },
+      {
+        "arena_id": "02",
+        "order": 4,
+        "label": "SEED VALUATION MED.",
+        "value": "$28M",
+        "change": "-4% QoQ",
+        "trend": "down",
+        "sparkline": "9,9,10,9,8,8,7",
+        "sourced": "no",
+        "__row": 9
+      }
+    ],
+    "cards": [
+      {
+        "id": "02.01",
+        "arena_id": "02",
+        "status": "published",
+        "archetype": "Gap",
+        "question": "Who insures a robot that learns on the job?",
+        "why_now": "Fleet policies now update weekly, but underwriters still price manipulators like fixed CNC tooling.",
+        "why_long": null,
+        "why_you": "Insurance access is a relationship business — a placement year inside a carrier is the moat here.",
+        "cap_1": "robotics",
+        "cap_2": "reasoning",
+        "cap_3": "infrastructure",
+        "skill_1": "capital & network",
+        "skill_2": "domain access",
+        "skill_3": "technical depth",
+        "math_headline": "~$0.3B",
+        "math_subhead": "LIABILITY PREMIUMS · 2030 · FIXED INDUSTRIAL ROBOTS ONLY",
+        "figure_label": "liability premiums (est.)",
+        "funded_teams": 6,
+        "funded_teams_source": null,
+        "tech_difficulty": 35,
+        "market_difficulty": 85,
+        "hard_kind": "convening",
+        "buyer": "carriers and reinsurers",
+        "tech_need": "a risk model for policies that change weekly",
+        "score_market_pull": 62,
+        "score_capital_momentum": 48,
+        "score_why_now": 88,
+        "score_ai_native_edge": 55,
+        "score_impact": 58,
+        "score_whitespace": 70,
+        "conviction": 64,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Excludes mobile robots and cobots outside IFR scope; with them the pool is larger.",
+        "last_verified": "2026-10-02",
+        "review_notes": "Premium per robot (~$9k) and 9% learned-policy share are unsourced. funded_teams unsourced.",
+        "__row": 2
+      },
+      {
+        "id": "02.02",
+        "arena_id": "02",
+        "status": "published",
+        "archetype": "Unlock",
+        "question": "Why does every warehouse still keep a human at the last 15 centimetres?",
+        "why_now": "General manipulation policies crossed from demo to duty cycle; the fixtures and exception layer did not follow.",
+        "why_long": "General manipulation policies crossed from demo to duty cycle in 2025–26: one model, many grippers, retrained from teleop data in days rather than quarters. The bottleneck moved off the arm and onto everything around it — fixtures, exception handling, and proof that the cell did what it claims.",
+        "why_you": "You can hold both ends: shift-floor observation and a policy checkpoint. Integrators cannot staff that pair.",
+        "cap_1": "robotics",
+        "cap_2": "vision",
+        "cap_3": "reasoning",
+        "skill_1": "technical depth",
+        "skill_2": "domain access",
+        "skill_3": "frontier/research",
+        "math_headline": "$11.7B",
+        "math_subhead": "SERVICEABLE TAM · 2030",
+        "figure_label": "serviceable TAM (est.)",
+        "funded_teams": 11,
+        "funded_teams_source": null,
+        "tech_difficulty": 85,
+        "market_difficulty": 50,
+        "hard_kind": "access",
+        "buyer": "warehouse operators",
+        "tech_need": "manipulation that holds up in clutter, on a duty cycle",
+        "score_market_pull": 88,
+        "score_capital_momentum": 74,
+        "score_why_now": 84,
+        "score_ai_native_edge": 92,
+        "score_impact": 66,
+        "score_whitespace": 52,
+        "conviction": 76,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "All three TAM inputs are working assumptions. Pick-station count is the first to source.",
+        "last_verified": "2026-10-02",
+        "review_notes": "funded_teams = 11 but only 3 builders listed. Skild funding is from a secondary source; confirm against Crunchbase.",
+        "__row": 3
+      },
+      {
+        "id": "02.03",
+        "arena_id": "02",
+        "status": "published",
+        "archetype": "Contrarian",
+        "question": "What if the humanoid is the wrong form factor for 90% of the work?",
+        "why_now": "Capital concentrated on bipeds while the highest-frequency tasks stayed bolted to a bench at fixed height.",
+        "why_long": null,
+        "why_you": "A contrarian read needs someone close enough to the bench to know which motions actually repeat.",
+        "cap_1": "robotics",
+        "cap_2": "infrastructure",
+        "cap_3": null,
+        "skill_1": "frontier/research",
+        "skill_2": "technical depth",
+        "skill_3": "lived insight",
+        "math_headline": "$7.6B",
+        "math_subhead": "HUMANOID VC · 2024–25 · GLOBAL",
+        "figure_label": "VC into humanoids",
+        "funded_teams": 4,
+        "funded_teams_source": null,
+        "tech_difficulty": 65,
+        "market_difficulty": 55,
+        "hard_kind": "convening",
+        "buyer": "integrators and contrarian capital",
+        "tech_need": "a non-humanoid cell that beats a biped on cost per task",
+        "score_market_pull": 54,
+        "score_capital_momentum": 90,
+        "score_why_now": 58,
+        "score_ai_native_edge": 61,
+        "score_impact": 44,
+        "score_whitespace": 78,
+        "conviction": 64,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Global figure, not US-only.",
+        "last_verified": "2026-10-02",
+        "review_notes": "'Fixed-height task value' line is unsized. funded_teams unsourced.",
+        "__row": 4
+      },
+      {
+        "id": "02.04",
+        "arena_id": "02",
+        "status": "published",
+        "archetype": "Moonshot",
+        "question": "Can a factory line be rewritten by a foreman who cannot code?",
+        "why_now": "Voice plus code-generation makes a natural-language cell controller plausible; certification and safety cases do not exist yet.",
+        "why_long": null,
+        "why_you": "The buyer is the foreman. If you have stood on that floor, you already know the words the interface must accept.",
+        "cap_1": "voice",
+        "cap_2": "agents",
+        "cap_3": "reasoning",
+        "skill_1": "lived insight",
+        "skill_2": "distribution",
+        "skill_3": "technical depth",
+        "math_headline": "671k",
+        "math_subhead": "US PRODUCTION SUPERVISORS",
+        "figure_label": "US production supervisors",
+        "funded_teams": 3,
+        "funded_teams_source": null,
+        "tech_difficulty": 70,
+        "market_difficulty": 65,
+        "hard_kind": "distribution",
+        "buyer": "plant managers across many sites",
+        "tech_need": "a voice-to-controller layer a safety case can sign off",
+        "score_market_pull": 70,
+        "score_capital_momentum": 58,
+        "score_why_now": 62,
+        "score_ai_native_edge": 82,
+        "score_impact": 74,
+        "score_whitespace": 86,
+        "conviction": 72,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Hours-lost input not yet sized; card has no dollar figure until it is.",
+        "last_verified": "2026-10-02",
+        "review_notes": "funded_teams unsourced.",
+        "__row": 5
+      },
+      {
+        "id": "01.01",
+        "arena_id": "01",
+        "status": "published",
+        "archetype": "Gap",
+        "question": "Who documents a night shift nobody watched?",
+        "why_now": "Ambient capture is cheap; the evidentiary standard for care records has not been rewritten around it.",
+        "why_long": null,
+        "why_you": "Access to a facility, not a model, is the gating asset — and you can get inside one this month.",
+        "cap_1": "voice",
+        "cap_2": "vision",
+        "cap_3": "infrastructure",
+        "skill_1": "domain access",
+        "skill_2": "lived insight",
+        "skill_3": "distribution",
+        "math_headline": "$3.2B",
+        "math_subhead": "CARE-AUDIT SPEND · 2030",
+        "figure_label": "audit spend (est.)",
+        "funded_teams": 5,
+        "funded_teams_source": null,
+        "tech_difficulty": 50,
+        "market_difficulty": 75,
+        "hard_kind": "access",
+        "buyer": "nursing facilities",
+        "tech_need": "ambient capture that meets an evidentiary standard",
+        "score_market_pull": 66,
+        "score_capital_momentum": 52,
+        "score_why_now": 71,
+        "score_ai_native_edge": 60,
+        "score_impact": 88,
+        "score_whitespace": 74,
+        "conviction": 69,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Per-facility cost is back-solved from the $3.2B headline. Needs a real source or the headline changes.",
+        "last_verified": "2026-10-02",
+        "review_notes": "Circular: per-facility cost derived from the headline. funded_teams unsourced.",
+        "__row": 6
+      },
+      {
+        "id": "01.02",
+        "arena_id": "01",
+        "status": "published",
+        "archetype": "Unlock",
+        "question": "Who clears the prior-authorization backlog that delays care?",
+        "why_now": "Payers still adjudicate prior auth by hand; a model can read the policy and the chart together in seconds.",
+        "why_long": null,
+        "why_you": "The moat is the payer relationship and the policy corpus — not the model. Get inside one plan.",
+        "cap_1": "agents",
+        "cap_2": "reasoning",
+        "cap_3": "infrastructure",
+        "skill_1": "technical depth",
+        "skill_2": "domain access",
+        "skill_3": "capital & network",
+        "math_headline": "$1.5B",
+        "math_subhead": "PRIOR-AUTH HANDLING · MEDICARE ADVANTAGE ONLY",
+        "figure_label": "admin spend (MA only, est.)",
+        "funded_teams": 8,
+        "funded_teams_source": null,
+        "tech_difficulty": 55,
+        "market_difficulty": 85,
+        "hard_kind": "access",
+        "buyer": "a health plan",
+        "tech_need": "models that read policy and chart together, auditably",
+        "score_market_pull": 84,
+        "score_capital_momentum": 70,
+        "score_why_now": 86,
+        "score_ai_native_edge": 80,
+        "score_impact": 82,
+        "score_whitespace": 55,
+        "conviction": 76,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Medicare Advantage only. Commercial and Medicaid volume would raise the figure; CAQH Index is the source to pull for cost per transaction.",
+        "last_verified": "2026-10-02",
+        "review_notes": "Pull CAQH Index for cost per transaction. funded_teams unsourced.",
+        "__row": 7
+      },
+      {
+        "id": "01.03",
+        "arena_id": "01",
+        "status": "published",
+        "archetype": "Contrarian",
+        "question": "What if the cheapest mental-health win is scheduling, not therapy?",
+        "why_now": "Access, not content, is the bottleneck; matching and reminders move outcomes before any chatbot does.",
+        "why_long": null,
+        "why_you": "If you have navigated the system yourself, you know where the drop-offs are — that is the product.",
+        "cap_1": "agents",
+        "cap_2": "voice",
+        "cap_3": null,
+        "skill_1": "lived insight",
+        "skill_2": "distribution",
+        "skill_3": "domain access",
+        "math_headline": "$4.0B",
+        "math_subhead": "ACCESS GAP · 2030",
+        "figure_label": "access gap (est.)",
+        "funded_teams": 4,
+        "funded_teams_source": null,
+        "tech_difficulty": 25,
+        "market_difficulty": 80,
+        "hard_kind": "distribution",
+        "buyer": "patients and providers",
+        "tech_need": "matching and reminders that measurably cut no-shows",
+        "score_market_pull": 58,
+        "score_capital_momentum": 60,
+        "score_why_now": 64,
+        "score_ai_native_edge": 55,
+        "score_impact": 90,
+        "score_whitespace": 72,
+        "conviction": 67,
+        "quote_text": null,
+        "quote_attribution": null,
+        "quote_source_url": null,
+        "note": "Adult AMI count to confirm from the NSDUH 2024 annual report.",
+        "last_verified": "2026-10-02",
+        "review_notes": "Unit problem: untreated adults x cost per appointment assumes one appointment per person. funded_teams unsourced.",
+        "__row": 8
+      }
+    ],
+    "math_lines": [
+      {
+        "card_id": "02.01",
+        "order": 1,
+        "text": "393,700 US industrial robots in service (2024)",
+        "source_ref": "1",
+        "__row": 2
+      },
+      {
+        "card_id": "02.01",
+        "order": 2,
+        "text": "× ~$9k average annual liability premium",
+        "source_ref": "EST",
+        "__row": 3
+      },
+      {
+        "card_id": "02.01",
+        "order": 3,
+        "text": "× ~9% running learned policies by 2030",
+        "source_ref": "EST",
+        "__row": 4
+      },
+      {
+        "card_id": "02.02",
+        "order": 1,
+        "text": "3.1M US warehouse pick stations",
+        "source_ref": "EST",
+        "__row": 5
+      },
+      {
+        "card_id": "02.02",
+        "order": 2,
+        "text": "× 18% in clutter-heavy flows",
+        "source_ref": "EST",
+        "__row": 6
+      },
+      {
+        "card_id": "02.02",
+        "order": 3,
+        "text": "× $21k annual contract value",
+        "source_ref": "EST",
+        "__row": 7
+      },
+      {
+        "card_id": "02.03",
+        "order": 1,
+        "text": "$1.5B across 65 deals (2024)",
+        "source_ref": "1",
+        "__row": 8
+      },
+      {
+        "card_id": "02.03",
+        "order": 2,
+        "text": "+ $6.1B across 139 deals (2025)",
+        "source_ref": "1",
+        "__row": 9
+      },
+      {
+        "card_id": "02.03",
+        "order": 3,
+        "text": "vs. fixed-height task value, largely unfunded",
+        "source_ref": "EST",
+        "__row": 10
+      },
+      {
+        "card_id": "02.04",
+        "order": 1,
+        "text": "671,160 first-line supervisors of production workers",
+        "source_ref": "1",
+        "__row": 11
+      },
+      {
+        "card_id": "02.04",
+        "order": 2,
+        "text": "× hours lost to manual line changes",
+        "source_ref": "EST",
+        "__row": 12
+      },
+      {
+        "card_id": "02.04",
+        "order": 3,
+        "text": "= the operator seat to automate",
+        "source_ref": "EST",
+        "__row": 13
+      },
+      {
+        "card_id": "01.01",
+        "order": 1,
+        "text": "14,742 CMS-certified nursing facilities (Jul 2025)",
+        "source_ref": "1",
+        "__row": 14
+      },
+      {
+        "card_id": "01.01",
+        "order": 2,
+        "text": "× ~$217k annual documentation & audit cost each",
+        "source_ref": "EST",
+        "__row": 15
+      },
+      {
+        "card_id": "01.02",
+        "order": 1,
+        "text": "~50M MA prior-auth determinations (2023)",
+        "source_ref": "1",
+        "__row": 16
+      },
+      {
+        "card_id": "01.02",
+        "order": 2,
+        "text": "× ~$30 payer + provider handling cost each",
+        "source_ref": "EST",
+        "__row": 17
+      },
+      {
+        "card_id": "01.03",
+        "order": 1,
+        "text": "~60M US adults with any mental illness",
+        "source_ref": "EST",
+        "__row": 18
+      },
+      {
+        "card_id": "01.03",
+        "order": 2,
+        "text": "× 48% who received no treatment (2024)",
+        "source_ref": "1",
+        "__row": 19
+      },
+      {
+        "card_id": "01.03",
+        "order": 3,
+        "text": "× ~$140 cost per resolved appointment",
+        "source_ref": "EST",
+        "__row": 20
+      },
+      {
+        "card_id": "source_ref: the 'order' number of a row on 'sources' for the same card, or EST for a working assumption.",
+        "order": null,
+        "text": null,
+        "source_ref": null,
+        "__row": 22
+      }
+    ],
+    "sources": [
+      {
+        "card_id": "02.01",
+        "order": 1,
+        "tier": "DATA",
+        "text": "IFR World Robotics 2025, Americas press release (25 Sep 2025): US operational stock 393,700.",
+        "url": "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "__row": 2
+      },
+      {
+        "card_id": "02.02",
+        "order": 1,
+        "tier": "FUNDING",
+        "text": "Physical Intelligence: $70M seed (Mar 2024), $400M Series A (Nov 2024), $600M Series B led by CapitalG (Nov 2025). A further ~$1B round appears in filings but is unannounced.",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-20/robotics-startup-physical-intelligence-valued-at-5-6-billion-in-new-funding",
+        "__row": 3
+      },
+      {
+        "card_id": "02.02",
+        "order": 2,
+        "tier": "FUNDING",
+        "text": "Skild AI: $300M Series A (Jul 2024), $500M Series B (Jun 2025), $1.4B Series C (Jan 2026). Secondary source; confirm against Crunchbase.",
+        "url": "https://siliconvalleyinvestclub.com/companies/skild-ai/",
+        "__row": 4
+      },
+      {
+        "card_id": "02.02",
+        "order": 3,
+        "tier": "FUNDING",
+        "text": "Dexterity: $95M at $1.65B valuation, led by Lightspeed and Sumitomo (Mar 2025); nearly $300M raised to date.",
+        "url": "https://www.supplychain247.com/article/dexterity-raises-95-million-expand-ai-powered-warehouse-robots",
+        "__row": 5
+      },
+      {
+        "card_id": "02.03",
+        "order": 1,
+        "tier": "FUNDING",
+        "text": "PitchBook: humanoid robotics VC \"$1.5 billion netted across 65 deals\" (2024) and \"$6.1 billion across 139 deals\" (2025).",
+        "url": "https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300",
+        "__row": 6
+      },
+      {
+        "card_id": "02.04",
+        "order": 1,
+        "tier": "DATA",
+        "text": "BLS OEWS, SOC 51-1011 First-Line Supervisors of Production and Operating Workers: 671,160 employed (May 2023).",
+        "url": "https://www.bls.gov/oes/2023/may/oes511011.htm",
+        "__row": 7
+      },
+      {
+        "card_id": "01.01",
+        "order": 1,
+        "tier": "DATA",
+        "text": "KFF, A Look at Nursing Facility Characteristics in 2025: \"As of July 2025, there are 14,742 nursing facilities certified by CMS.\"",
+        "url": "https://www.kff.org/medicaid/a-look-at-nursing-facility-characteristics/",
+        "__row": 8
+      },
+      {
+        "card_id": "01.02",
+        "order": 1,
+        "tier": "DATA",
+        "text": "KFF via AHA (29 Jan 2025): MA insurers made \"nearly 50 million prior authorization determinations in 2023\"; 3.2M (6.4%) fully or partially denied.",
+        "url": "https://www.aha.org/news/headline/2025-01-29-kff-ma-insurers-made-nearly-50-million-prior-authorization-determinations-2023",
+        "__row": 9
+      },
+      {
+        "card_id": "01.03",
+        "order": 1,
+        "tier": "DATA",
+        "text": "SAMHSA NSDUH 2024: \"about half of adults aged 18 or older who had AMI in past year (52.1%) received mental health treatment.\"",
+        "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt56771/2024-nsduh-psr7-mhtx-adult-adol.pdf",
+        "__row": 10
+      }
+    ],
+    "builders": [
+      {
+        "card_id": "02.02",
+        "order": 1,
+        "initials": "PI",
+        "name": "Physical Intelligence",
+        "note": "general manipulation policies",
+        "backers": "Thrive · Lux · CapitalG · OpenAI",
+        "raised": "$1.07B+",
+        "source_url": "https://www.bloomberg.com/news/articles/2025-11-20/robotics-startup-physical-intelligence-valued-at-5-6-billion-in-new-funding",
+        "__row": 2
+      },
+      {
+        "card_id": "02.02",
+        "order": 2,
+        "initials": "SK",
+        "name": "Skild AI",
+        "note": "cross-embodiment robot brain",
+        "backers": "SoftBank · Lightspeed · Sequoia",
+        "raised": "$2.2B+",
+        "source_url": "https://siliconvalleyinvestclub.com/companies/skild-ai/",
+        "__row": 3
+      },
+      {
+        "card_id": "02.02",
+        "order": 3,
+        "initials": "DX",
+        "name": "Dexterity",
+        "note": "warehouse pick & load cells",
+        "backers": "Lightspeed · Sumitomo",
+        "raised": "~$300M",
+        "source_url": "https://www.supplychain247.com/article/dexterity-raises-95-million-expand-ai-powered-warehouse-robots",
+        "__row": 4
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "Q01",
+        "order": 1,
+        "axis": "edge",
+        "question": "You have one free week before a demo. You spend it…",
+        "__row": 2
+      },
+      {
+        "id": "Q02",
+        "order": 2,
+        "axis": "edge",
+        "question": "A new open model drops that beats yours. First move?",
+        "__row": 3
+      },
+      {
+        "id": "Q03",
+        "order": 3,
+        "axis": "stance",
+        "question": "Most smart investors think your idea is wrong. You feel…",
+        "__row": 4
+      },
+      {
+        "id": "Q04",
+        "order": 4,
+        "axis": "edge",
+        "question": "Which compliment would mean more?",
+        "__row": 5
+      },
+      {
+        "id": "Q05",
+        "order": 5,
+        "axis": "edge",
+        "question": "Your launch gets 40 sign-ups. Next?",
+        "__row": 6
+      },
+      {
+        "id": "Q06",
+        "order": 6,
+        "axis": "stance",
+        "question": "You would rather be…",
+        "__row": 7
+      },
+      {
+        "id": "Q07",
+        "order": 7,
+        "axis": "edge",
+        "question": "You are stuck. Who do you call?",
+        "__row": 8
+      },
+      {
+        "id": "Q08",
+        "order": 8,
+        "axis": "edge",
+        "question": "A regulated industry like health or insurance is interesting because…",
+        "__row": 9
+      },
+      {
+        "id": "Q09",
+        "order": 9,
+        "axis": "stance",
+        "question": "How do you decide what to build?",
+        "__row": 10
+      },
+      {
+        "id": "Q10",
+        "order": 10,
+        "axis": "edge",
+        "question": "The hardest thing you did this year?",
+        "__row": 11
+      },
+      {
+        "id": "Q11",
+        "order": 11,
+        "axis": "edge",
+        "question": "The demo-day moment you would rather have:",
+        "__row": 12
+      },
+      {
+        "id": "Q12",
+        "order": 12,
+        "axis": "stance",
+        "question": "A customer asks for a feature that breaks your vision.",
+        "__row": 13
+      },
+      {
+        "id": "Q13",
+        "order": 13,
+        "axis": "stance",
+        "question": "Your ideal first year:",
+        "__row": 14
+      }
+    ],
+    "quiz_options": [
+      {
+        "question_id": "Q01",
+        "option": "A",
+        "text": "Getting the hardest part of the system to actually work.",
+        "technical depth": 2,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 2
+      },
+      {
+        "question_id": "Q01",
+        "option": "B",
+        "text": "Sitting with five people who would use it.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": 1,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": 1,
+        "stance": null,
+        "__row": 3
+      },
+      {
+        "question_id": "Q02",
+        "option": "A",
+        "text": "Read the paper tonight and work out why it wins.",
+        "technical depth": null,
+        "frontier/research": 2,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 4
+      },
+      {
+        "question_id": "Q02",
+        "option": "B",
+        "text": "Call customers: does this change what they would pay for?",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": 1,
+        "distribution": 1,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 5
+      },
+      {
+        "question_id": "Q03",
+        "option": "A",
+        "text": "Good. That is usually where the opportunity is.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": 1,
+        "__row": 6
+      },
+      {
+        "question_id": "Q03",
+        "option": "B",
+        "text": "Uneasy. I want to know what they are seeing.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": -1,
+        "__row": 7
+      },
+      {
+        "question_id": "Q04",
+        "option": "A",
+        "text": "\"I have no idea how you built that.\"",
+        "technical depth": 2,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 8
+      },
+      {
+        "question_id": "Q04",
+        "option": "B",
+        "text": "\"How did you get a meeting with them?\"",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": 2,
+        "lived insight": null,
+        "stance": null,
+        "__row": 9
+      },
+      {
+        "question_id": "Q05",
+        "option": "A",
+        "text": "Dig into the logs and find where it breaks.",
+        "technical depth": 2,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 10
+      },
+      {
+        "question_id": "Q05",
+        "option": "B",
+        "text": "Find the channel that brought them and do it ten times over.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": 2,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 11
+      },
+      {
+        "question_id": "Q06",
+        "option": "A",
+        "text": "Early to something that might not work.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": 1,
+        "__row": 12
+      },
+      {
+        "question_id": "Q06",
+        "option": "B",
+        "text": "The best at something that clearly does.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": -1,
+        "__row": 13
+      },
+      {
+        "question_id": "Q07",
+        "option": "A",
+        "text": "A researcher who knows the frontier.",
+        "technical depth": null,
+        "frontier/research": 2,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 14
+      },
+      {
+        "question_id": "Q07",
+        "option": "B",
+        "text": "Someone who has done the job for twenty years.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": 2,
+        "stance": null,
+        "__row": 15
+      },
+      {
+        "question_id": "Q08",
+        "option": "A",
+        "text": "The technical problem is still unsolved.",
+        "technical depth": 1,
+        "frontier/research": 1,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 16
+      },
+      {
+        "question_id": "Q08",
+        "option": "B",
+        "text": "Outsiders cannot get in, and I can.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": 2,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 17
+      },
+      {
+        "question_id": "Q09",
+        "option": "A",
+        "text": "A strong belief about where the world is going.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": 1,
+        "__row": 18
+      },
+      {
+        "question_id": "Q09",
+        "option": "B",
+        "text": "Evidence of pain people already pay to fix.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": -1,
+        "__row": 19
+      },
+      {
+        "question_id": "Q10",
+        "option": "A",
+        "text": "Fixed something nobody else could.",
+        "technical depth": 1,
+        "frontier/research": 1,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 20
+      },
+      {
+        "question_id": "Q10",
+        "option": "B",
+        "text": "Got into a room I had no business being in.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": 1,
+        "distribution": null,
+        "capital & network": 1,
+        "lived insight": null,
+        "stance": null,
+        "__row": 21
+      },
+      {
+        "question_id": "Q11",
+        "option": "A",
+        "text": "A live demo that makes the room go quiet.",
+        "technical depth": 1,
+        "frontier/research": 1,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 22
+      },
+      {
+        "question_id": "Q11",
+        "option": "B",
+        "text": "Announcing a customer everyone in the room recognises.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": 1,
+        "capital & network": 1,
+        "lived insight": null,
+        "stance": null,
+        "__row": 23
+      },
+      {
+        "question_id": "Q12",
+        "option": "A",
+        "text": "Hold the line. They will come around.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": 1,
+        "__row": 24
+      },
+      {
+        "question_id": "Q12",
+        "option": "B",
+        "text": "Build it. The customer is the signal.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": -1,
+        "__row": 25
+      },
+      {
+        "question_id": "Q13",
+        "option": "A",
+        "text": "Two big swings. One lands.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": 1,
+        "__row": 26
+      },
+      {
+        "question_id": "Q13",
+        "option": "B",
+        "text": "Twenty small experiments, compounding.",
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": -1,
+        "__row": 27
+      },
+      {
+        "question_id": "Edge questions award skill points (keep each option's total equal, currently 2, so neither side is favoured). Stance questions use stance only: +1 contrarian, -1 evidence-led.",
+        "option": null,
+        "text": null,
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 29
+      },
+      {
+        "question_id": "Changed anything here? Increase quiz_version on 'settings'.",
+        "option": null,
+        "text": null,
+        "technical depth": null,
+        "frontier/research": null,
+        "domain access": null,
+        "distribution": null,
+        "capital & network": null,
+        "lived insight": null,
+        "stance": null,
+        "__row": 30
+      }
+    ],
+    "types": [
+      {
+        "key": "H",
+        "name": "The Heretic",
+        "edge": "technical",
+        "stance": "contrarian",
+        "description": "You build what others say cannot or should not be built. Your edge is the hard part, and you are comfortable being early and alone.",
+        "where_to_look": "Contrarian and Moonshot problems where the technical risk is the bottleneck.",
+        "cofounder_key": "O",
+        "__row": 2
+      },
+      {
+        "key": "E",
+        "name": "The Engineer",
+        "edge": "technical",
+        "stance": "evidence-led",
+        "description": "You go where the demand is already proven and win by making it actually work, reliably, at scale.",
+        "where_to_look": "Unlock problems: known pain, recently feasible, still unbuilt.",
+        "cofounder_key": "I",
+        "__row": 3
+      },
+      {
+        "key": "I",
+        "name": "The Insider",
+        "edge": "market",
+        "stance": "contrarian",
+        "description": "You see what outsiders miss because you have been inside. Your edge is access, and the conviction to act on what you saw.",
+        "where_to_look": "Contrarian problems where getting in the door is the hard part.",
+        "cofounder_key": "E",
+        "__row": 4
+      },
+      {
+        "key": "O",
+        "name": "The Operator",
+        "edge": "market",
+        "stance": "evidence-led",
+        "description": "You find the pain people already pay to fix and get the product in front of them faster than anyone.",
+        "where_to_look": "Gap problems where distribution or access is the bottleneck.",
+        "cofounder_key": "H",
+        "__row": 5
+      }
+    ],
+    "skills": [
+      {
+        "label": "technical depth",
+        "hint": "you can ship the hard part yourself",
+        "tag": "BUILD",
+        "side": "technical",
+        "__row": 2
+      },
+      {
+        "label": "frontier/research",
+        "hint": "you read the papers before the demos",
+        "tag": "KNOW",
+        "side": "technical",
+        "__row": 3
+      },
+      {
+        "label": "domain access",
+        "hint": "you can get inside the building",
+        "tag": "ACCESS",
+        "side": "market",
+        "__row": 4
+      },
+      {
+        "label": "distribution",
+        "hint": "you can reach the buyer cheaply",
+        "tag": "REACH",
+        "side": "market",
+        "__row": 5
+      },
+      {
+        "label": "capital & network",
+        "hint": "you can convene people who decide",
+        "tag": "CONVENE",
+        "side": "market",
+        "__row": 6
+      },
+      {
+        "label": "lived insight",
+        "hint": "you have done the work being replaced",
+        "tag": "LIVED",
+        "side": "market",
+        "__row": 7
+      }
+    ],
+    "capabilities": [
+      {
+        "name": "agents",
+        "__row": 2
+      },
+      {
+        "name": "robotics",
+        "__row": 3
+      },
+      {
+        "name": "voice",
+        "__row": 4
+      },
+      {
+        "name": "vision",
+        "__row": 5
+      },
+      {
+        "name": "reasoning",
+        "__row": 6
+      },
+      {
+        "name": "infrastructure",
+        "__row": 7
+      }
+    ],
+    "archetypes": [
+      {
+        "name": "Contrarian",
+        "colour": "#C4451C",
+        "stance_lean": 1,
+        "description": "Challenges a consensus bet.",
+        "__row": 2
+      },
+      {
+        "name": "Gap",
+        "colour": "#6E7F5C",
+        "stance_lean": -1,
+        "description": "A known need nobody serves yet.",
+        "__row": 3
+      },
+      {
+        "name": "Unlock",
+        "colour": "#1A1A1A",
+        "stance_lean": -1,
+        "description": "Newly feasible because a constraint broke.",
+        "__row": 4
+      },
+      {
+        "name": "Moonshot",
+        "colour": "#B0603C",
+        "stance_lean": 1,
+        "description": "High risk, category-defining if it works.",
+        "__row": 5
+      },
+      {
+        "name": "stance_lean: +1 suits contrarian builders, -1 suits evidence-led builders. Used by the quiz match.",
+        "colour": null,
+        "stance_lean": null,
+        "description": null,
+        "__row": 7
+      },
+      {
+        "name": "description: internal note only; the archetype descriptions were not in V6.",
+        "colour": null,
+        "stance_lean": null,
+        "description": null,
+        "__row": 8
+      }
+    ],
+    "rubric": [
+      {
+        "order": 1,
+        "dimension": "MARKET PULL",
+        "card_column": "score_market_pull",
+        "description": "Buyer budget that already exists: spend or headcount the problem touches today (napkin math).",
+        "__row": 2
+      },
+      {
+        "order": 2,
+        "dimension": "CAPITAL MOMENTUM",
+        "card_column": "score_capital_momentum",
+        "description": "Venture dollars and deal count into the space, last 24 months, vs. arena median.",
+        "__row": 3
+      },
+      {
+        "order": 3,
+        "dimension": "WHY-NOW / TIMING",
+        "card_column": "score_why_now",
+        "description": "A dated capability, cost or regulatory shift in the last 24 months that makes this newly possible.",
+        "__row": 4
+      },
+      {
+        "order": 4,
+        "dimension": "AI-NATIVE EDGE",
+        "card_column": "score_ai_native_edge",
+        "description": "How much of the value depends on models doing work a rules engine could not.",
+        "__row": 5
+      },
+      {
+        "order": 5,
+        "dimension": "IMPACT / SOCIAL",
+        "card_column": "score_impact",
+        "description": "People or hours affected, weighted toward access, safety and cost of care or work.",
+        "__row": 6
+      },
+      {
+        "order": 6,
+        "dimension": "WHITESPACE",
+        "card_column": "score_whitespace",
+        "description": "Inverse of funded-team density: fewer credible funded teams scores higher.",
+        "__row": 7
+      }
+    ],
+    "settings": [
+      {
+        "key": "quiz_version",
+        "value": 1,
+        "notes": "Increase by 1 whenever quiz questions or options change.",
+        "__row": 2
+      },
+      {
+        "key": "results_shown",
+        "value": 3,
+        "notes": "How many matched cards the quiz result shows.",
+        "__row": 3
+      },
+      {
+        "key": "match_weight_edge",
+        "value": 50,
+        "notes": "Points for edge fit. The three weights should sum to 100.",
+        "__row": 4
+      },
+      {
+        "key": "match_weight_skills",
+        "value": 30,
+        "notes": "Points for skill fit.",
+        "__row": 5
+      },
+      {
+        "key": "match_weight_stance",
+        "value": 20,
+        "notes": "Points for stance fit.",
+        "__row": 6
+      },
+      {
+        "key": "data_scope",
+        "value": "US",
+        "notes": "Shown in the site banner.",
+        "__row": 7
+      },
+      {
+        "key": "weights total",
+        "value": 100,
+        "notes": null,
+        "__row": 8
+      }
+    ]
+  }
+}

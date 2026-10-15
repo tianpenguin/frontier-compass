@@ -104,7 +104,9 @@ const SCORE_COLUMNS = ["score_market_pull", "score_capital_momentum", "score_why
 
 /** A row with only its first cell filled is a note written under the table, not data. */
 function isNoteRow(row: RawRow, firstKey: string) {
-  return Object.entries(row).every(([k, v]) => k === "__row" || k === firstKey || blank(v));
+  const cols = Object.keys(row).filter((k) => k !== "__row");
+  if (cols.length < 2) return false; // single-column tabs (capabilities) have no notes
+  return cols.every((k) => k === firstKey || blank(row[k]));
 }
 
 export const slugify = (s: string) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
