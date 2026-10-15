@@ -131,7 +131,7 @@ export function buildContent(tabs: RawTabs): Content {
           const shown = blank(raw[col]) ? "" : ` (got '${String(raw[col])}')`;
           problems.push(`${tab} row ${rowNo}: ${col} ${iss.message}${shown}`);
         }
-      } else out.push({ ...r.data, __row: rowNo });
+      } else out.push(Object.assign({}, r.data as object, { __row: rowNo }) as z.infer<T> & { __row: number });
     });
     return out;
   }
