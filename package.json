@@ -1,0 +1,29 @@
+{
+  "name": "frontier-compass",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "check:content": "tsx scripts/check-content.ts",
+    "snapshot": "node scripts/snapshot-from-xlsx.mjs"
+  },
+  "dependencies": {
+    "@fontsource/space-grotesk": "^5.2.0",
+    "geist": "^1.7.0",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "exceljs": "^4.4.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3"
+  }
+}
