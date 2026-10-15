@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsx scripts/pull-sheet.ts && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check:content": "tsx scripts/check-content.ts",
+    "pull": "tsx scripts/pull-sheet.ts",
     "snapshot": "node scripts/snapshot-from-xlsx.mjs"
   },
   "dependencies": {

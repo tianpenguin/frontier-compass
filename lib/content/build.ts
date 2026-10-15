@@ -38,6 +38,8 @@ const url = z.preprocess(
   z.string().nullable().refine((v) => v === null || /^https?:\/\/[^\s]+$/i.test(v), "must start with http:// or https://"),
 );
 const isoDate = z.preprocess((v) => {
+  // Google Sheets returns dates as serial day numbers (days since 1899-12-30)
+  if (typeof v === "number" && v > 20000 && v < 80000) return new Date(Date.UTC(1899, 11, 30) + v * 86400000).toISOString().slice(0, 10);
   const s = str(v);
   if (!s) return null;
   const d = new Date(s);
