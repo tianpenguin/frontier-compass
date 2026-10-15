@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { TopBar } from "@/components/TopBar";
 import { Spark } from "@/components/Marks";
-import { ArenaBrowser, type TileCard } from "@/components/ArenaBrowser";
+import { ArenaBrowser, ArenaView, type TileCard } from "@/components/ArenaBrowser";
 import { getContent, cardsIn, liveArenas } from "@/lib/content";
 import { stampDate } from "@/lib/util";
 
@@ -95,7 +95,7 @@ export default async function ArenaPage({ params }: { params: Promise<{ slug: st
             </div>
           )}
         </section>
-        <Suspense>
+        <Suspense fallback={<ArenaView cards={cards} capabilities={c.capabilities} archetypes={c.archetypes} />}>
           <ArenaBrowser cards={cards} capabilities={c.capabilities} archetypes={c.archetypes} />
         </Suspense>
       </main>

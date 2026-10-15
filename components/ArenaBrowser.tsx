@@ -9,20 +9,26 @@ export interface TileCard {
   caps: string[]; figure: string; fundedTeams: number | null; stamp: string | null; conviction: number; scores: number[];
 }
 
-export function ArenaBrowser({ cards, capabilities, archetypes }: { cards: TileCard[]; capabilities: string[]; archetypes: Archetype[] }) {
+interface Props { cards: TileCard[]; capabilities: string[]; archetypes: Archetype[] }
+
+/** Reads filters from the URL. Wrapped in Suspense; ArenaView with no filters is the server-rendered fallback. */
+export function ArenaBrowser(props: Props) {
   const sp = useSearchParams();
   const router = useRouter();
   const path = usePathname();
-  const cap = sp.get("cap") ?? "all";
-  const arch = sp.get("arch") ?? "all";
-
   const set = (k: "cap" | "arch", v: string) => {
     const q = new URLSearchParams(sp.toString());
     if (v === "all") q.delete(k); else q.set(k, v);
     const s = q.toString();
     router.replace(s ? `${path}?${s}` : path, { scroll: false });
   };
+  return <ArenaView {...props} cap={sp.get("cap") ?? "all"} arch={sp.get("arch") ?? "all"} onSet={set} onClear={() => router.replace(path, { scroll: false })} />;
+}
 
+export function ArenaView({ cards, capabilities, archetypes, cap = "all", arch = "all", onSet, onClear }: Props & {
+  cap?: string; arch?: string; onSet?: (k: "cap" | "arch", v: string) => void; onClear?: () => void;
+}) {
+  const set = (k: "cap" | "arch", v: string) => onSet?.(k, v);
   const shown = cards.filter((c) => (cap === "all" || c.caps.includes(cap)) && (arch === "all" || c.archetype === arch));
   const capOpts = [{ key: "all", label: "all capabilities", n: cards.length }, ...capabilities.map((k) => ({ key: k, label: k, n: cards.filter((c) => c.caps.includes(k)).length }))];
   const archOpts = [{ key: "all", label: "all archetypes", colour: "rgba(26,26,26,.3)", n: cards.length }, ...archetypes.map((a) => ({ key: a.name, label: a.name, colour: a.colour, n: cards.filter((c) => c.archetype === a.name).length }))];
@@ -83,7 +89,7 @@ export function ArenaBrowser({ cards, capabilities, archetypes }: { cards: TileC
             ))}
           </ul>
         ) : (
-          <div className="empty">No cards match. <button type="button" className="lnk-btn" onClick={() => router.replace(path, { scroll: false })}>Clear filters</button></div>
+          <div className="empty">No cards match. <button type="button" className="lnk-btn" onClick={() => onClear?.()}>Clear filters</button></div>
         )}
       </section>
     </div>
